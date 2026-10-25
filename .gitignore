@@ -1,0 +1,14 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.vscode/
+.idea/
+venv/
+env/
+*.zip
+tickets_created.csv
+reply.wav
+test_*.wav

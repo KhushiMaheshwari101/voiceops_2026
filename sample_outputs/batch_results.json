@@ -1,0 +1,9 @@
+[
+  {
+    "input_file": "sample_call_01.wav",
+    "transcript_heard": "my order eight nine seven eight two eight three seven still has not arrived can i cancel it",
+    "agent_reply": "For security, could you please provide the last 4 digits of your registered phone number or your delivery pincode?",
+    "reply_audio_file": "reply_sample_call_01.wav",
+    "retrieved_chunks": "IDV-2"
+  }
+]

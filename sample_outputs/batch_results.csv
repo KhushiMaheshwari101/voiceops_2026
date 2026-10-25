@@ -1,0 +1,2 @@
+input_file,transcript_heard,agent_reply,reply_audio_file,retrieved_chunks
+sample_call_01.wav,my order eight nine seven eight two eight three seven still has not arrived can i cancel it,"For security, could you please provide the last 4 digits of your registered phone number or your delivery pincode?",reply_sample_call_01.wav,IDV-2

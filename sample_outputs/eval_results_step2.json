@@ -1,0 +1,87 @@
+{
+  "mode": "step2",
+  "total_evaluated": 5,
+  "correct_answers": 4,
+  "accuracy_pct": 80.0,
+  "evidence_recall_pct": 90.0,
+  "unanswerable_handled_pct": 100.0,
+  "details": [
+    {
+      "id": "PQ0002",
+      "question": "SKU ELE-0012 pe ZentroMart Assured hai kya? Claim kaise karein?",
+      "reply": "नमस्ते! मैं ZentroMart की AI सपोर्ट असिस्टेंट हूँ।\n\nहाँ, SKU ELE-0012 पर ZentroMart Assured वारंटी उपलब्ध है। आप ऐप में My Orders सेक्शन के तहत क्लेम कर सकते हैं।",
+      "retrieved_chunks": [
+        "WAR-2",
+        "MKS-3",
+        "WAR-3",
+        "DWM-4",
+        "products.csv:ELE-0012"
+      ],
+      "must_include": "12 ; My Orders / app",
+      "must_not_include": "",
+      "is_correct": true,
+      "evidence_recall": 1.0
+    },
+    {
+      "id": "PQ0003",
+      "question": "How fast are refunds to the ZentroMart Wallet?",
+      "reply": "Hello! I'm ZentroMart's AI support assistant.\n\nRefunds to your ZentroMart Wallet are instant and typically reflect within 2 hours. This applies to all payment methods, including cash-on-delivery orders.",
+      "retrieved_chunks": [
+        "PAY-4",
+        "REF-2",
+        "REF-3",
+        "PAY-1"
+      ],
+      "must_include": "instant / 2 hours / two hours / तुरंत / turant",
+      "must_not_include": "5 to 7 days ; 5-7 days",
+      "is_correct": true,
+      "evidence_recall": 0.5
+    },
+    {
+      "id": "PQ0004",
+      "question": "Can I schedule a delivery at midnight?",
+      "reply": "Hello! I'm ZentroMart's AI support assistant.\n\nSorry, I don't have information about that. I can connect you to a colleague who can help.",
+      "retrieved_chunks": [
+        "DEL-2",
+        "REF-5",
+        "DEL-6",
+        "FAQ-3"
+      ],
+      "must_include": "don't have / do not have / not sure / no information / can't find / not able to find / couldn't find / जानकारी नहीं / pata nahi / jaankari nahi / connect / सहयोगी",
+      "must_not_include": "",
+      "is_correct": true,
+      "evidence_recall": 1.0
+    },
+    {
+      "id": "PQ0005",
+      "question": "SKU ELE-0002 pe ZentroMart Assured hai kya? Claim kaise karein?",
+      "reply": "Hello! Main ZentroMart ki official AI support assistant hoon.\n\nHaan, SKU ELE-0002 पर ZentroMart Assured warranty hai. Aap iske liye claim ZentroMart app mein My Orders section ke through raise kar sakte hain.",
+      "retrieved_chunks": [
+        "WAR-2",
+        "MKS-3",
+        "WAR-3",
+        "DWM-4",
+        "products.csv:ELE-0002"
+      ],
+      "must_include": "12 ; My Orders / app",
+      "must_not_include": "",
+      "is_correct": false,
+      "evidence_recall": 1.0
+    },
+    {
+      "id": "PQ0006",
+      "question": "As a ZentroMart Plus member, will I be charged the pickup fee for returning shoes I just don't like?",
+      "reply": "Hello! I'm ZentroMart's AI support assistant.\n\nAs a ZentroMart Plus member, you will not be charged a reverse pickup fee for returning shoes, even if it's a change-of-mind return. This is a benefit of your ZentroMart Plus membership.",
+      "retrieved_chunks": [
+        "PLS-2",
+        "RET-6",
+        "PLS-1",
+        "DWM-2"
+      ],
+      "must_include": "no / not / waived / free",
+      "must_not_include": "₹49 will be charged",
+      "is_correct": true,
+      "evidence_recall": 1.0
+    }
+  ]
+}
