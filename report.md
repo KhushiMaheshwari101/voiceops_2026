@@ -2,6 +2,7 @@
 ## Capstone Technical Report
 **Course**: LLM & Generative AI Course · Consulting & Analytics Club, IIT Guwahati × Gnani.ai  
 **Simulation Reference Date**: 20 October 2026  
+**GitHub Repository**: [https://github.com/KhushiMaheshwari101/voiceops_2026](https://github.com/KhushiMaheshwari101/voiceops_2026)  
 
 ---
 

@@ -107,7 +107,7 @@ def build_pdf():
     story.append(
         Paragraph(
             "<b>LLM &amp; Generative AI Capstone Technical Report</b> · Consulting &amp; Analytics Club, IIT Guwahati &times; Gnani.ai<br/>"
-            "<b>Simulation Reference Date:</b> 20 October 2026 | <b>Architecture:</b> Grounded Precedence-RAG &amp; Gnani Speech",
+            "<b>Simulation Reference Date:</b> 20 October 2026 | <b>Public GitHub:</b> <font color='#2B6CB0'>https://github.com/KhushiMaheshwari101/voiceops_2026</font>",
             subtitle_style,
         )
     )
